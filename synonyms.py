@@ -1,6 +1,23 @@
 import math
 
-# Semantic Similarity: Project 3 Assignment
+"""
+Semantic Similarity Synonyms Finder
+Author: [Tannaz Chowdhury]
+Date: [11/2024]
+Course: ESC180 - Introduction to Computer Programming
+
+Description:
+This program determines the semantic similarity between words using 
+vector-based representations built from text corpora. It implements 
+cosine similarity to answer TOEFL-style synonym questions, achieving 
+up to ~70% accuracy. 
+
+Key Features:
+- Constructs semantic descriptors using word co-occurrence in sentences.
+- Computes similarity between words using cosine similarity.
+- Selects the most similar word from multiple-choice options.
+
+"""
 
 def norm(vec):
     # Return the norm of a vector stored as a dictionary, as described in the handout for Project 3.
